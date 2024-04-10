@@ -4,7 +4,7 @@ import streamlit as st
 
 st.header('Herramienta para la elección de autos usados') #crear de un encabezado
 
-car_data = pd.read_csv('/Users/lmaciel/Mis_Proyectos/sprint_6/vehicles_us.csv') # leer los datos
+car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 
 hist_button = st.button('Construir histograma') # crear un botón
         
